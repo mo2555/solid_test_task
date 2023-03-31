@@ -1,0 +1,32 @@
+name: solid_test_task
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.6 <3.0.0'
+dependencies: 
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  flutter: 
+    sdk: flutter
+dev_dependencies: 
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+  solid_lints: ^0.0.14
+  flutter_test: 
+    sdk: flutter
+flutter_icons: 
+  android: launcher_icon
+  image_path: assets/icons/logo.jpg
+  web: 
+    image_path: assets/icons/logo.jpg
+    generate: true
+  windows: 
+    image_path: assets/icons/logo.jpg
+    generate: true
+  macos: 
+    image_path: assets/icons/logo.jpg
+    generate: true
+  ios: true
+flutter: 
+  uses-material-design: true
